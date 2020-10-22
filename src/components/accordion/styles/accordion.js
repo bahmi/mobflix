@@ -47,7 +47,7 @@ export const Header = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 16px;
+    font-size: 16px;
   }
 `;
 
