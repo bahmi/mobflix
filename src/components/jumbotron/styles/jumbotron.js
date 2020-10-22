@@ -10,7 +10,7 @@ export const Item = styled.div`
 
 export const Inner = styled.div`
   display: flex;
-  align-item: center;
+  align-items: center;
   flex-direction: ${({ direction }) => direction};
   justify-content: center;
   max-width: 1100px;
