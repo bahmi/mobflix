@@ -25,7 +25,7 @@ export default function Signup() {
       .createUserWithEmailAndPassword(emailAddress, password)
       .then((result) => {
         result.user.updateProfile({
-          diplayName: firstName,
+          displayName: firstName,
           photoURL: Math.floor(Math.random() * 5) + 1,
         });
       })
