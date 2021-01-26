@@ -14,7 +14,7 @@ describe(`<Footer />`, () => {
             <Footer.Link href="#">Investor Relation</Footer.Link>
             <Footer.Link href="#">Ways to Watch</Footer.Link>
             <Footer.Link href="#">Corporate Information</Footer.Link>
-            <Footer.Link href="#">Netflix Originals</Footer.Link>
+            <Footer.Link href="#">MobFlix Originals</Footer.Link>
           </Footer.Column>
 
           <Footer.Column>
@@ -39,7 +39,7 @@ describe(`<Footer />`, () => {
           </Footer.Column>
         </Footer.Row>
         <Footer.Break />
-        <Footer.Text>Netflix Bangladesh</Footer.Text>
+        <Footer.Text>MobFlix Bangladesh</Footer.Text>
       </Footer>
     );
 
@@ -48,7 +48,7 @@ describe(`<Footer />`, () => {
     expect(getByText("Investor Relation")).toBeTruthy();
     expect(getByText("Ways to Watch")).toBeTruthy();
     expect(getByText("Corporate Information")).toBeTruthy();
-    expect(getByText("Netflix Originals")).toBeTruthy();
+    expect(getByText("MobFlix Originals")).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
 });

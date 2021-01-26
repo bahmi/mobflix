@@ -4,7 +4,7 @@ import { FirebaseContext } from "../context/firebase";
 import { FooterContainer } from "./footer";
 import { Card, Header, Loading, Player } from "../components";
 import * as ROUTES from "../constants/routes";
-import logo from "../logo.svg";
+import logo from "../logo.png";
 import { Item } from "../components/accordion/styles/accordion";
 import Fuse from "fuse.js";
 
@@ -47,7 +47,7 @@ export function BrowseContainer({ slides }) {
       <Header src="joker1" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
+            <Header.Logo to={ROUTES.HOME} src={logo} alt="MobFlix" />
             <Header.TextLink
               active={category === "series" ? true : false}
               onClick={() => setCategory("series")}

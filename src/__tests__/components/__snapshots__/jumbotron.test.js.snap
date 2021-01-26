@@ -29,7 +29,7 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
         class="jumbotron__Pane-es77m8-2 lmMDDa"
       >
         <img
-          alt="Tiger King on Netflix"
+          alt="Tiger King on MobFlix"
           class="jumbotron__Image-es77m8-5 gBEfte"
           data-testid="1-jumbo-image"
           src="/images/misc/home-tv.jpg"
@@ -95,7 +95,7 @@ exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
         class="jumbotron__Pane-es77m8-2 lmMDDa"
       >
         <img
-          alt="Money Heist on Netflix"
+          alt="Money Heist on MobFlix"
           class="jumbotron__Image-es77m8-5 gBEfte"
           data-testid="3-jumbo-image"
           src="/images/misc/home-imac.jpg"
